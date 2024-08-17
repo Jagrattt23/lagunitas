@@ -1,0 +1,538 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    /* background-color: red; */
+    width: 400px;
+    z-index: 9;
+    transform: translate(-50%,-50%);
+}
+#img1{
+    /* background-color: blue; */
+    position: absolute;
+    top: 0vh !important;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+
+#one{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: antiquewhite;
+    height: 190vh;
+    width: 100%;
+}
+
+#nav{
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 8%;
+    align-items: center;
+}
+
+#nav img{
+    position: absolute;
+    left: 10%;
+    top: 20px;
+    width: 120px;
+}
+
+#nav h1{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #C81734;
+}
+
+#nav button{
+    padding: 12px 35px;
+    background-color: #C81734;
+    font-size: 17px;
+    font-family: Anton;
+    color: #fff;
+    border: none;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)2s;
+}
+
+#nav button:hover{
+    border-radius: 50px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+#nav span{
+    color: #000;
+    font-size: 10px;
+    font-family: Rubik Dirt;
+    font-weight: 600;
+}
+
+#nav2{
+    z-index: 9;
+    height:100vh;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 30px;
+    font-size: 20px;
+    border-right: 3px solid #000;
+}
+
+#text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-top:70px;
+    width: 100vw;
+    height: 80vh;
+}
+
+#text h1{
+    letter-spacing: 2px;
+    font-family: Anton;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 190px;
+    -webkit-background-clip:text;
+    background-image: url(./splat-red.png);
+    color: transparent;
+}
+
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    width: 100%;
+    height: 90vh;
+    background-color:  antiquewhite;
+}
+
+#left{
+    width: 30%;
+    height: 85vh;
+    /* background-color: #C81734; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+     gap: 20px;   
+}
+
+#p{
+    width: 60%;
+    height: 30%;
+    overflow: hidden;
+    font-size: 15px;
+    /* background-color: #fff; */
+    text-align: left;
+}
+
+#left h5{
+    font-family: Lobster;
+    font-weight: 500;
+}
+
+#left h1{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+    font-weight: 550;
+    font-family: Anton;
+}
+
+#left button{
+    z-index: 99;
+    width: 90px;
+    height: 35px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1.5s;
+}
+
+#left button:hover{
+    border-radius: 50px;
+    /* background-color: #C81734; */
+}
+
+#right{
+    padding-top: 4%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    width: 30%;
+    height: 85vh;
+    /* background-color: #C81734; */
+    border: 3.5px solid #000;
+    gap: 40px;
+}
+
+.info{
+    margin-left: 25px;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: #C81734; */
+}
+
+.info h5{
+    font-size: 19px;
+}
+
+.h1lor p{
+    /* padding: 20px 0px; */
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.h1lor h1{
+    font-weight: 500;
+    margin-bottom: 70px;
+
+    font-size: 40px;
+    font-family: Anton;
+    margin-right: 20px;
+}
+
+.h1lor{
+    margin-top: 10px;
+    display: flex;
+}
+
+.info span{
+    margin-top: 8%;
+    position: absolute;
+    width: 25vw;
+    height: 2px;
+    background-color: #000;
+}
+
+#two{
+    position: relative;
+    width: 100%;
+    height: 230vh;
+    background-color:  antiquewhite;
+}
+    
+#text2{
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    font-size: 140px;
+    translate: -50% -50%;
+}
+
+#text2 h1{
+    font-family: Anton;
+    -webkit-background-clip:text;
+    background-image: url(./splat-red.png);
+    color: transparent;
+    
+}
+
+#information{
+    position: absolute;
+    width: 35%;
+    height: 60vh;
+    top: 30%;
+    right: 5%;
+    padding: 10px 80px;
+    /* background-color: #C81734; */
+
+}
+
+#p1{
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#p2{
+    margin-top: 5px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+#p3{
+    width: 90%;
+}
+
+#video{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start ;
+    top: 23%;
+    left: 7%;
+    width: 27%;
+    height: 50vh;
+    /* background-color: #C81734; */
+    font-size: 30px;
+}
+
+/* #videocont{
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19vw;
+    height: 40vh;
+    overflow: hidden;
+    background-color: #fff;
+} */
+
+#videocont #img2{
+    padding-bottom: 40px;
+    height: 85%;
+    width: 100%;
+}
+
+#video h6{
+    font-family: Seaweed Script;
+}
+
+.img{
+    background-size: cover;
+    background-position: center;
+    padding-left: 30px;
+}
+
+
+#image1{
+    width: 18%;
+    height: 18%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    /* background-color: #fff; */
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/08/splat-red.png);
+}
+
+#image2{
+    height: 22%;
+    width: 23%;
+    position: absolute;
+    top:65%;
+    left: 25%;
+    background-image: url(https://lagunitas.com/wp-content/uploads/2021/08/splat-red.png);
+}
+#image3{
+    height: 29%;
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    background-image:url(https://lagunitas.com/wp-content/themes/lagunitas/assets/images/splat-black.png);
+}
+
+.inner{
+    padding-top:2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    color: #fff;
+    /* gap: 60px; */
+    /* background-color: antiquewhite; */
+}
+
+.inner img{
+    top: 20%;
+    border-radius: 50px; 
+    width: 50px;
+}
+
+#inner2 img{
+    border-radius: 50px; 
+}
+
+.inner h1{
+    font-family: Anton;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    line-height: 30px;
+    margin: 15px 0px;
+}
+
+.inner p{
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+}
+
+#three{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    background-color: #FAEAD7;
+}
+
+#sec3img{
+    position: absolute;
+    top: -55%;
+    left: 12%;
+    transform: rotate(-20deg);
+    width: 270px;
+    height: 350px;
+}
+
+#caption h1{
+    margin-left: 35%;
+   font-size: 85px;
+   font-weight: 580;
+   font-family: Anton;
+   -webkit-background-clip:text;
+   background-image:url(./splat-black.png);
+   color:transparent;
+}
+
+#caption h6{
+    margin-top: 20px;
+    margin-left: 45%;
+   font-size: 22px;
+   /* font-weight: 550; */
+   font-family: Calligraffitti;
+}
+
+#bottle{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 70vw;
+    height: 50vh;
+    /* background-color: #C81734; */
+}
+
+#opner{
+    position: absolute;
+    top: 20px;
+    width: 16vw;
+    height: 40vh;
+    /* background-color: #fff; */
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#bottle img{
+    position: relative;
+    width: 150px;
+    height: 230px;
+}
+
+#ipa{
+    margin-left: 85px;
+}
+
+/* #price{
+    z-index: 9;
+    margin-top: -40px;
+    padding-left: 110px;
+    margin-left: 1%;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+} */
+
+#four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color:#FAEAD7;
+}
+
+#leftimg{
+    overflow: hidden;
+    position: relative;
+    width: 50vw;
+    height: 60vh;
+}
+
+#leftimg img{
+    width: 100%;
+    height: 100%;
+}
+
+#rightinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    width: 40vw;
+    padding-top: 50px;
+    padding-left: 100px;
+    height: 60vh;
+    /* background-color: #fff; */
+}
+
+#rightinfo h1{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: Anton;
+    line-height: 45px;
+    letter-spacing: 8px;
+}
+
+#rightinfo h2{
+    font-family: Seaweed Script;
+}
+
+#rightinfo p{
+    width: 30vw;
+}
+
+#rightinfo button{
+    z-index: 999;
+    font-family: Anton;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 10px 30px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)1.5s;
+}
+
+#red:hover{
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #C81734;
+}
+
+
+#pg{
+    overflow-y: hidden !important;
+}
